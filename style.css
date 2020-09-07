@@ -8,13 +8,15 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(to top, #080808, #000000);
+
 }
 header{
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    
     position: sticky;
     top: 0px;
-    background: white;
+    
 }
 nav{
     min-height: 10vh;
@@ -26,7 +28,7 @@ nav{
 }
 nav h1,
 nav ul{
-    font-size: 1.5rem;
+    color: white;
     flex: 1;
 }
 nav ul{
@@ -49,27 +51,54 @@ section h2{
     font-size: 5rem;
 }
 button{
-    font-size: 1.5rem;
+    font-size: 10px;
 
     background: none;
     border: none;
     -webkit-appearance: none;
 }
 .home{
-    background: linear-gradient(to right top, #4b6cb7, #182848);
+    display: flex;
+    color: white;    
+    justify-content: space-between;
+   
+    
+}
+.home > h1{
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff05;
+    font-size: 200px;
+    position: fixed;
+    right: 0;
+}
+
+.home> h2{
+    font-size: 40px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.home > img{
+    al
+    border-radius: 50%;
+
 }
 .project{
-    background: linear-gradient(to right top, #cc2b5e , #753a88);
 }
 .contact{
-    background: linear-gradient(to right top, #42275a, #734b6d);
+    
 }
 .bubble{
     position: absolute;
     z-index: -2;
-    background: linear-gradient(to right top, #4b6cb7, #182848);
-    box-shadow: inset -3px -3px 7px #00000030,inset 3px 3px 5px rgba(94, 104, 121, .288);
+    
+    border: 1px solid red;
     border-radius: 20px;
     transform: scale(2) ;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
+}
+.info{
+    position: absolute;
+    align-items: center;
 }

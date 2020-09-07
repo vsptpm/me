@@ -2,9 +2,8 @@ const section = document.querySelectorAll('section');
 const bubble = document.querySelector('.bubble');
 const header = document.querySelector('header');
 const gradients = [
-    'linear-gradient(to right top, #4b6cb7, #182848)',
-    'linear-gradient(to right top, #cc2b5e , #753a88)',
-    'linear-gradient(to right top, #42275a, #734b6d)'
+    'linear-gradient(to right top, #414141, #000000)',
+    
 ];
 
 const options ={
@@ -30,8 +29,8 @@ function navCheck(entries){
             bubble.style.setProperty('top', `${directions.top}px`);
             bubble.style.setProperty('height', `${directions.height}px`);
             bubble.style.setProperty('width', `${directions.width}px`);
-            bubble.style.background = gradients[gradientIndex];
-            header.style.background = gradients[gradientIndex];
+            //bubble.style.background = gradients[gradientIndex];
+            //header.style.background = gradients[gradientIndex];
 
 
         }
