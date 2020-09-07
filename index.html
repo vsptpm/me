@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>V S</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>VS</h1>
+            <ul>
+                <li><a data-page="home" href="#home">Home</a></li>
+                <li><a data-page="project" href="#project">Project</a></li>
+                <li><a data-page="contact" href="#contact">Contact</a></li>
+                <div class="bubble"></div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="home" data-index="0" class="home">
+            <h2>Home</h2>
+        </section>
+        <section id="project" data-index="1" class="project">
+            <h2>project</h2>
+        </section>
+        <section id="contact" data-index="2" class="contact">
+            <h2>contact</h2>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+    <script>
+        function scroll(section) {
+            var elmnt = document.getElementById(section);
+            elmnt.scrollIntoView();
+        }
+
+    </script>
+</body>
+</html>
