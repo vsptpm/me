@@ -10,7 +10,6 @@ html{
 body{
     font-family: 'Rubik', sans-serif;
     background: linear-gradient(to top, #080808, #000000);
-
 }
 header{
     
@@ -80,6 +79,7 @@ button{
 
 .home > img{
     
+    max-width: 40%;
     
     border-radius: 50%;
 
