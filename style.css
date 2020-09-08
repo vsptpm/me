@@ -63,23 +63,24 @@ button{
     
 }
 .home > h1{
+    margin-top: 0%;
     font-family: 'Heebo', sans-serif;
-    color: #ffffff05;
+    color: #ffffff07;
     font-size: 200px;
     position: fixed;
     right: 0;
 }
 
-.home> h2{
+.info> h2{
     font-size: 40px;
-    position: absolute;
+    
     bottom: 8px;
     right: 16px;
 }
 
 .home > img{
-    
-    max-width: 40%;
+    margin-top: 0;
+    max-width: 50%;
     border-radius: 50%;
 
 }
@@ -99,7 +100,7 @@ button{
     transition: all 0.4s ease;
 }
 .info{
-    position: absolute;
+    margin-right: 70px;
     align-items: center;
 }
 .nav__right{
