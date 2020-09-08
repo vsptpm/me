@@ -4,12 +4,18 @@
     box-sizing: border-box;
 
 }
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 html{
     scroll-behavior: smooth;
 }
 body{
     font-family: 'Rubik', sans-serif;
     background: linear-gradient(to top, #080808, #000000);
+    
 }
 header{
     
@@ -22,9 +28,13 @@ nav{
     display: flex;
     align-items: center;
     width: 90%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
-nav h1,
+nav h1{
+    font-size: 20px;
+    color: white;
+    margin: 40px;
+}
 nav ul{
     color: white;
     flex: 1;
@@ -72,7 +82,7 @@ button{
 }
 
 .info> h2{
-    font-size: 40px;
+    font-size: 30px;
     
     bottom: 8px;
     right: 16px;
