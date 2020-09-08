@@ -79,6 +79,7 @@ button{
     font-size: 200px;
     position: fixed;
     right: 0;
+    z-index: -1;
 }
 
 .info> h2{
