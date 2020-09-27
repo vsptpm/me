@@ -95,11 +95,19 @@ button{
     border-radius: 50%;
 
 }
-.project{
-}
+
 .contact{
     
 }
+.social{
+    color: white;
+    display: flex;
+    
+}
+
+
+
+
 .bubble{
     position: absolute;
     z-index: -2;
@@ -122,3 +130,5 @@ button{
 .nav__left{
     flex: 0.2;
 }
+
+
