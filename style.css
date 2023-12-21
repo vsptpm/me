@@ -111,7 +111,7 @@ button{
 .bubble{
     position: absolute;
     z-index: -2;
-    max-width: 45px;
+    max-width: 56px;
     max-height: 17px;
     border: 1px solid red;
     border-radius: 20px;
